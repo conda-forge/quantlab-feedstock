@@ -1,6 +1,6 @@
 {% set name = "quantlab" %}
-{% set version = "0.1.5" %}
-{% set sha256 = "7ea4be81c7117ffad3f61aec95a2dbca99f77d0c0b5157153ceb11414659aaba" %}
+{% set version = "0.2.0" %}
+{% set sha256 = "153c15686b92a68570d4c997d3bd40ac13d775803fdac72232696393409de05d" %}
 
 package:
   name: {{ name|lower }}
