@@ -16,14 +16,15 @@ focuses on quantitative finance.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/quantlab-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/quantlab-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/quantlab-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/quantlab-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/quantlab-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/quantlab-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/quantlab-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/quantlab-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/quantlab/badges/version.svg)](https://anaconda.org/conda-forge/quantlab)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/quantlab/badges/downloads.svg)](https://anaconda.org/conda-forge/quantlab)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-quantlab-green.svg)](https://anaconda.org/conda-forge/quantlab) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/quantlab.svg)](https://anaconda.org/conda-forge/quantlab) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/quantlab.svg)](https://anaconda.org/conda-forge/quantlab) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/quantlab.svg)](https://anaconda.org/conda-forge/quantlab) |
 
 Installing quantlab
 ===================
@@ -68,6 +69,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
@@ -103,4 +105,3 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](http://conda.pydata.org/docs/building/meta-yaml.html#build-number-and-string)
    back to 0.
- 
